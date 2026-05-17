@@ -4,22 +4,22 @@ cask "aeolus" do
 
   on_macos do
     on_intel do
-      sha256 "fd81c4bd564f6199d7a5406a81113fe381add0fe09d3cbe02e2eb13468d71994"
+      sha256 "8501e5bf825201c9f059af26ed15abf0a9b590a135445bf0f7f71b11b609bc1e"
       url "https://github.com/aeolus-labs/aeolus/releases/download/v#{version}/aeolus_#{version}_Darwin_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "c76b89c6fc9c9959dc6c29a3b0de268e9fff12c000177ecb5b852b7f0ec65de9"
+      sha256 "a4130d18b6b326072b00ad0e4e75e8a10ff87d9255f950fad2f4e24a905a2548"
       url "https://github.com/aeolus-labs/aeolus/releases/download/v#{version}/aeolus_#{version}_Darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "a4644dea6312d671e75bb7012cdeff2e163d704a6f18e2452782c5a9a2039ae5"
+      sha256 "bb7a364a0154ba9bb06fc22335fb96a680fadc8dd681f0511e4a9460e34cf451"
       url "https://github.com/aeolus-labs/aeolus/releases/download/v#{version}/aeolus_#{version}_Linux_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "371c8c2f62f0caad1454a579d5e290335f60a31b8b05600d04b0a48f148e0f76"
+      sha256 "122b602859d3f5ebd8ee79934f83cb35f397b4e0994a390f6f352dd4cd237ee9"
       url "https://github.com/aeolus-labs/aeolus/releases/download/v#{version}/aeolus_#{version}_Linux_arm64.tar.gz"
     end
   end
